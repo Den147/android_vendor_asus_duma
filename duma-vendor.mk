@@ -35,7 +35,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/duma/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/asus/duma/proprietary/bin/qcks:system/bin/qcks \
     vendor/asus/duma/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/asus/duma/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/asus/duma/proprietary/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/asus/duma/proprietary/bin/radish:system/bin/radish \
     vendor/asus/duma/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/asus/duma/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
@@ -53,7 +53,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/duma/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/asus/duma/proprietary/lib/hw/flp.msm8960.so:system/lib/hw/flp.msm8960.so \
     vendor/asus/duma/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
-    vendor/asus/duma/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
+    vendor/asus/duma/proprietary/lib/sensors.duma.so:system/lib/sensors.duma.so \
     vendor/asus/duma/proprietary/lib/libacdbdata.so:system/lib/libacdbdata.so \
     vendor/asus/duma/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/asus/duma/proprietary/lib/libAKM.so:system/lib/libAKM.so \
