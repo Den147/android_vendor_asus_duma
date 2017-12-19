@@ -28,7 +28,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/duma/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/asus/duma/proprietary/bin/mm-qjpeg-enc-test:system/bin/mm-qjpeg-enc-test \
     vendor/asus/duma/proprietary/bin/mm-qomx-ienc-test:system/bin/mm-qomx-ienc-test \
-    vendor/asus/duma/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/asus/duma/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/asus/duma/proprietary/bin/nl_listener:system/bin/nl_listener \
     vendor/asus/duma/proprietary/bin/port-bridge:system/bin/port-bridge \
@@ -102,6 +101,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/duma/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     vendor/asus/duma/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/asus/duma/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
+    vendor/asus/duma/proprietary/vendor/bin/mpdecision:vendor/bin/mpdecision \
     vendor/asus/duma/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
     vendor/asus/duma/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
     vendor/asus/duma/proprietary/vendor/firmware/bcm2079x-b5_firmware.ncd:system/vendor/firmware/bcm2079x-b5_firmware.ncd \
