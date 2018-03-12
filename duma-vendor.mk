@@ -18,6 +18,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/duma/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/asus/duma/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/asus/duma/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/asus/duma/proprietary/bin/charger_touch:system/bin/charger_touch \
     vendor/asus/duma/proprietary/bin/diag_klog:system/bin/diag_klog \
     vendor/asus/duma/proprietary/bin/diag_mdlog:system/bin/diag_mdlog \
     vendor/asus/duma/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
@@ -47,9 +48,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/duma/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
     vendor/asus/duma/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     vendor/asus/duma/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
-    vendor/asus/duma/proprietary/etc/gps.conf:system/etc/gps.conf \
-    vendor/asus/duma/proprietary/etc/android.hardware.location.gps.xml:system/etc/permissions/android.hardware.location.gps.xml \
     vendor/asus/duma/proprietary/lib/hw/flp.msm8960.so:system/lib/hw/flp.msm8960.so \
+    vendor/asus/duma/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
     vendor/asus/duma/proprietary/lib/sensors.duma.so:system/lib/sensors.duma.so \
     vendor/asus/duma/proprietary/lib/libacdbdata.so:system/lib/libacdbdata.so \
     vendor/asus/duma/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
@@ -72,6 +72,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/duma/proprietary/lib/libdsucsd.so:system/lib/libdsucsd.so \
     vendor/asus/duma/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/asus/duma/proprietary/lib/libDxHdcp.so:system/lib/libDxHdcp.so \
+    vendor/asus/duma/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     vendor/asus/duma/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
     vendor/asus/duma/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/asus/duma/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
